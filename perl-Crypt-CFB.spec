@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	CFB
 Summary:	Crypt::CFB Perl module - encrypt data in Cipher Feedback Mode
-Summary(pl):	Modu³ Perla Crypt::CFB - szyfruj±cy dane w trybie Cipher Feedback
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::CFB - szyfrujÄ…cy dane w trybie Cipher Feedback
 Name:		perl-Crypt-CFB
 Version:	0.01
 Release:	3
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Pure Perl implementation of Cipher Feedback Mode for almost arbitrary
 block ciphers and cryptographic hash functions.
 
-%description -l pl
-Modu³ ten jest czysto perlow± implementacj± Cipher Feedback Mode dla
-prawie dowolnych szyfrów blokowych i kryptograficznych funkcji
-mieszaj±cych.
+%description -l pl.UTF-8
+ModuÅ‚ ten jest czysto perlowÄ… implementacjÄ… Cipher Feedback Mode dla
+prawie dowolnych szyfrÃ³w blokowych i kryptograficznych funkcji
+mieszajÄ…cych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
