@@ -4,12 +4,12 @@
 Summary:	Crypt::CFB Perl module - encrypt data in Cipher Feedback Mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::CFB - szyfrujący dane w trybie Cipher Feedback
 Name:		perl-Crypt-CFB
-Version:	0.01
-Release:	4
+Version:	0.02
+Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	eb29e4d92d67b7763a3882858077cf08
+# Source0-md5:	861efb6dc6da228458faeb1415fd47d2
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
