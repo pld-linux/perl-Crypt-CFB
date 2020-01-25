@@ -1,6 +1,5 @@
 %define		pdir	Crypt
 %define		pnam	CFB
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::CFB Perl module - encrypt data in Cipher Feedback Mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::CFB - szyfrujący dane w trybie Cipher Feedback
 Name:		perl-Crypt-CFB
